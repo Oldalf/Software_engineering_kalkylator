@@ -217,6 +217,9 @@ public class Interface implements ActionListener{
 		ButtonPanel.add(button, "cell 4 3,growx");
 		//frame.setSize(width, height);
 		
+		CosButton button_cos = new CosButton("cos");
+		ButtonPanel.add(button_cos, "cell 5 0,growx");	
+		
 		TangentButton tanButton = new TangentButton("Tan");
 		ButtonPanel.add(tanButton, "cell 5 2,growx");
 		
