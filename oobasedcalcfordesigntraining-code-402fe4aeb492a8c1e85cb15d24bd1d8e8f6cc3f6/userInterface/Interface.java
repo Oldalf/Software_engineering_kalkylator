@@ -226,6 +226,9 @@ public class Interface implements ActionListener{
 		AverageOperatorButton button_average = new AverageOperatorButton("AVG");
 		ButtonPanel.add(button_average, "cell 5 3,growx");
 		
+		SinusButton btnSin = new SinusButton("Sin");
+		ButtonPanel.add(btnSin, "cell 5 4,growx");
+		
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
 		
