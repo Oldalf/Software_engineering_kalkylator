@@ -57,6 +57,7 @@ import buttons.PercentageButton;
 import buttons.ReciprocalButton;
 import buttons.SqrtButton;
 import buttons.SubtractionOperatorButton;
+import buttons.TangentButton;
 import common.ApplicationState;
 import common.NumberStack;
 import net.miginfocom.swing.MigLayout;
@@ -215,6 +216,9 @@ public class Interface implements ActionListener{
 		NegationButton button = new NegationButton("+/-");
 		ButtonPanel.add(button, "cell 4 3,growx");
 		//frame.setSize(width, height);
+		
+		TangentButton tanButton = new TangentButton("Tan");
+		ButtonPanel.add(tanButton, "cell 5 2,growx");
 		
 		AverageOperatorButton button_average = new AverageOperatorButton("AVG");
 		ButtonPanel.add(button_average, "cell 5 3,growx");
