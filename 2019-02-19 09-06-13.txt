@@ -1,0 +1,9 @@
+ArithmeticOperatorProcesing.processingIsPossible().N1
+ArithmeticOperatorProcesing.processingIsPossible().N2
+ArithmeticOperatorProcesing.processingIsPossible().N3
+ArithmeticOperatorProcesing.processingIsPossible().N10
+ArithmeticOperatorProcesing.processingIsPossible().N1
+ArithmeticOperatorProcesing.processingIsPossible().N2
+ArithmeticOperatorProcesing.processingIsPossible().N3
+ArithmeticOperatorProcesing.processingIsPossible().N4
+ArithmeticOperatorProcesing.processingIsPossible().N5

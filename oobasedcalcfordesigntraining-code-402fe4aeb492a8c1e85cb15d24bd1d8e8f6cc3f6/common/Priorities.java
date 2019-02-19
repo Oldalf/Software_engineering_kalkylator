@@ -35,7 +35,7 @@ public final class Priorities {
 		class2Integer.put(processing.SubtractionOperatorProcessing.class, 3);
 		class2Integer.put(processing.MultiplicationOperatorProcessing.class, 2);
 		class2Integer.put(processing.DivisionOperatorProcessing.class, 2);
-		// class2Integer.put(processing.parantes.class, 1)
+		class2Integer.put(processing.AverageOperatorProcessing.class, 2);
 		instantiated = true;
 	}
 	

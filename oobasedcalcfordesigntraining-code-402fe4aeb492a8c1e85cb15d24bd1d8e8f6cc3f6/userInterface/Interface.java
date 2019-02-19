@@ -17,23 +17,23 @@
 
 package userInterface;
 
+import java.awt.Color;
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-
-import net.miginfocom.swing.MigLayout;
-
-import java.awt.event.ActionListener;
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
 import javax.swing.JComponent;
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
+import javax.swing.SwingConstants;
 
-import common.ApplicationState;
-import common.NumberStack;
 import actions.AdditionOperatorAction;
 import actions.ClearAction;
 import actions.DecimalMarkAction;
@@ -41,6 +41,7 @@ import actions.DigitAction;
 import actions.EqualsOperatorAction;
 import actions.MultiplicationOperatorAction;
 import buttons.AdditionOperatorButton;
+import buttons.AverageOperatorButton;
 import buttons.BackspaceButton;
 import buttons.ClearButton;
 import buttons.DecimalMarkButton;
@@ -56,17 +57,9 @@ import buttons.PercentageButton;
 import buttons.ReciprocalButton;
 import buttons.SqrtButton;
 import buttons.SubtractionOperatorButton;
-
-import java.awt.GridLayout;
-
-import javax.swing.SwingConstants;
-
-import java.awt.Color;
-
-import javax.swing.JButton;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
+import common.ApplicationState;
+import common.NumberStack;
+import net.miginfocom.swing.MigLayout;
 
 public class Interface implements ActionListener{
 
@@ -223,6 +216,8 @@ public class Interface implements ActionListener{
 		ButtonPanel.add(button, "cell 4 3,growx");
 		//frame.setSize(width, height);
 		
+		AverageOperatorButton button_average = new AverageOperatorButton("AVG");
+		ButtonPanel.add(button_average, "cell 5 3,growx");
 		
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
