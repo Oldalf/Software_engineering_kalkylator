@@ -65,3 +65,6 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+# eclipse settings
+.settings/
